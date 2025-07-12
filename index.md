@@ -3,7 +3,7 @@ title: Welcome
 layout: default
 ---
 
-# Welcome to Clockwork Gold Pottery
+# OXEN Arts
 
-We make handmade ceramics from our home studio in the Midwest.  
+I make handmade ceramics in Minnesota.  
 Check out our latest work on [the blog](blog.html) or browse the [photo gallery](gallery.html).
