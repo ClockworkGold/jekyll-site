@@ -1,0 +1,16 @@
+---
+layout: page
+title: Gallery
+permalink: /gallery/
+---
+
+<h1>Gallery</h1>
+<div class="gallery">
+  {% for image in site.static_files %}
+    {% if image.path contains 'assets/gallery/' %}
+      <div class="gallery-item">
+        <img src="{{ image.path | relative_url }}" alt="Gallery image">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
